@@ -220,7 +220,37 @@
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
                 </div>
-                <a class="text-sm font-bold underline text-rate" href="">details</a>
+
+                <button class="text-rate underline" onclick="my_modal_1.showModal()">Details</button>
+                <dialog id="my_modal_1" class="modal">
+                 <form method="dialog" class="modal-box">
+                  <div class="pl-44 my-10">
+                    <img src="images/fruit6.png" alt="">
+                  </div>
+                <h3 class="font-bold text-lg">Apples</h3>
+                <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                <div>
+                  <div class="rating rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                  </div>
+                </div>
+                <div class="modal-action justify-center text-center">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn btn-outline btn-error">Close</button>
+                <button class="btn btn-error text-white">Buy Now</button>
+               </div>
+             </form>
+              </dialog>
               </div>
             </div>
           
@@ -231,7 +261,7 @@
               <figure><img class="pt-14" src="/images//fruit7.png" alt="Shoes" /></figure>
               <div class="card-body">
                 <h2 class="card-title mb-1 justify-center font-bold text-base border-b-2 pb-5">12.90$ - 18.85$</h2>
-                <p class="text-xs font-medium">Apples</p>
+                <p class="text-xs font-medium">Orange</p>
                 <div class="rating rating-lg rating-half justify-center">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
@@ -245,7 +275,37 @@
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
                 </div>
-                <a class="text-sm font-bold underline text-rate" href="">details</a>
+                <!-- Open the modal using ID.showModal() method -->
+                <button class="text-rate underline" onclick="my_modal_5.showModal()">Details</button>
+                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                <div class="justify-center text-center">
+                  <div class="pl-40 my-10">
+                    <img src="images/fruit7.png" alt="">
+                  </div>
+                    <h3 class="text-4xl font-extrabold">Orange</h3>
+                  <p class="text-base font-medium py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <div class="rating rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+                </div>
+                <div class="modal-action justify-center text-center">
+        <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn btn-outline btn-error">Close</button>
+                  <button class="btn btn-error  text-white">Buy Now</button>
+                </div>
+              </div>
+             </form>
+         </dialog>
               </div>
             </div>
           
@@ -256,7 +316,7 @@
               <figure><img class="pt-14" src="/images//fruit8.png" alt="Shoes" /></figure>
               <div class="card-body">
                 <h2 class="card-title mb-1 justify-center font-bold text-base border-b-2 pb-5">12.90$ - 18.85$</h2>
-                <p class="text-xs font-medium">Apples</p>
+                <p class="text-xs font-medium">Red Dragon</p>
                 <div class="rating rating-lg rating-half justify-center">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
@@ -270,9 +330,25 @@
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
                 </div>
-                <a class="text-sm font-bold underline text-rate" href="">details</a>
-              </div>
+
+              <!-- Open the modal using ID.showModal() method -->
+<button class="underline text-rate" onclick="my_modal_33.showModal()">Details</button>
+<dialog id="my_modal_33" class="modal">
+  <form method="dialog" class="modal-box">
+   <div class="pl-44 my-10">
+    <img src="images/fruit8.png" alt="">
+   </div>
+    <h3 class="font-bold text-lg">Red Dragon</h3>
+    <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="modal-action justify-center text-center">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn btn-outline btn-outline btn-error">Close</button>
+      <button class="btn btn-error">Buy Now</button>
+    </div>
+  </form>
+</dialog>
             </div>
+           </div>
           
           <!-- fourth card -->
 
@@ -281,7 +357,7 @@
               <figure><img class="pt-14" src="/images//fruit9.png" alt="Shoes" /></figure>
               <div class="card-body">
                 <h2 class="card-title mb-1 justify-center font-bold text-base border-b-2 pb-5">12.90$ - 18.85$</h2>
-                <p class="text-xs font-medium">Apples</p>
+                <p class="text-xs font-medium">Banana</p>
                 <div class="rating rating-lg rating-half justify-center">
                   <input type="radio" name="rating-10" class="rating-hidden" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
@@ -295,7 +371,40 @@
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
                   <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
                 </div>
-                <a class="text-sm font-bold underline text-rate" href="">details</a>
+                
+                <!-- Open the modal using ID.showModal() method -->
+<button class="text-rate underline" onclick="my_modal_44.showModal()">Details</button>
+<dialog id="my_modal_44" class="modal">
+  <form method="dialog" class="modal-box">
+   <div class="justify-center text-center">
+    <div class="pl-44 my-10">
+      <img src="images/fruit9.png" alt="">
+    </div>
+    <h3 class="font-bold text-lg">Banana</h3>
+    <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div>
+      <div class="rating rating-lg rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-amber-500 mask mask-star-2 mask-half-2" />
+      </div>
+    </div>
+    <div class="modal-action justify-center text-center">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn btn-outline btn-error">Close</button>
+      <button class="btn btn-error">Buy Now</button>
+    </div>
+   </div>
+  </form>
+</dialog>
               </div>
             </div>
         </div>
@@ -391,33 +500,33 @@
           <h3 class="font-extrabold text-5xl mb-5">Why Choose Us</h3>
           <p class="text-base font-medium mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-       <div class="grid grid-cols-3">
+       <div class="grid grid-cols-3 mb-36">
           <div class="">
             <div>
               <div class="flex items-center gap-3">
-                <img class="h-6 w-6" src="Black icon/people.png" alt="">
+                <img class="h-8 w-8" src="Black icon/people.png" alt="">
                 <div>
-                  <h4 class="text-2xl font-extrabold border-b-2 ">Dedicated Team</h4>
-                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <h4 class="text-2xl font-extrabold border-b-2 pb-2 ">Dedicated Team</h4>
+                  <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div>
               
             </div>
             <div>
               <div class="flex items-center gap-3">
-                <img class="h-6 w-6" src="Black icon/icons8-love-50.png" alt="">
+                <img class="h-8 w-8" src="Black icon/icons8-love-50.png" alt="">
                 <div>
-                  <h4 class="text-2xl font-extrabold">Fresh is Best</h4>
-                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <h4 class="text-2xl font-extrabold border-b-2 pb-2 mt-10">Fresh is Best</h4>
+                  <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div>
             </div>
             <div>
               <div class="flex items-center gap-3">
-                <img class="h-6 w-6" src="Black icon/gift-box.png" alt="">
+                <img class="h-8 w-8" src="Black icon/gift-box.png" alt="">
                 <div>
-                  <h4 class="text-2xl font-extrabold">Gift Certificates</h4>
-                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <h4 class="text-2xl font-extrabold border-b-2 pb-2 mt-10">Gift Certificates</h4>
+                  <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
               </div>
             </div>
@@ -425,18 +534,33 @@
           <div>
               <img src="images/whychoose1.png" alt="">
           </div>
-        <div class="text-right">
+          <div class="text-right">
+            <div>
+              <div class="flex flex-row-reverse items-center gap-3">
+                <img class="h-8 w-8" src="Black icon/fruit.png" alt="">
+                <div>
+                  <h4 class="text-2xl font-extrabold border-b-2 pb-2">Integrated Supplier</h4>
+                  <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                </div>
+              </div>
+            </div>
           <div>
-            <h4 class="text-2xl font-extrabold">Integrated Supplier</h4>
-            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="flex flex-row-reverse items-center gap-3">
+              <img class="h-8 w-8" src="Black icon/ice-cream.png" alt="">
+              <div>
+                <h4 class="text-2xl font-extrabold border-b-2 pb-2 mt-10">Sustainable Practice</h4>
+                <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
           </div>
           <div>
-            <h4 class="text-2xl font-extrabold">Sustainable Practice</h4>
-            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-          </div>
-          <div>
-            <h4 class="text-2xl font-extrabold">The Benefits Only</h4>
-            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class= "flex flex-row-reverse items-center gap-3">
+              <img class="h-8 w-8" src="Black icon/like.png" alt="">
+              <div>
+                <h4 class="text-2xl font-extrabold border-b-2 pb-2 mt-10">The Benefits Only</h4>
+                <p class="mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
           </div>
         </div>
        </div>
