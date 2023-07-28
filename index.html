@@ -16,6 +16,9 @@
         .lato{
             font-family: 'Lato', sans-serif;
         }
+        .order-2{
+          order: 2;
+        }
     </style>
   <!-- color -->
     <script>
@@ -36,47 +39,40 @@
 </head>
 <body class="lato">
     <header>
-      <nav class="mx-5 md:mx-10 lg:mx-60">
-          <div class="navbar  bg-[#F85559] rounded-full justify-around  mt-12">
-            <div class="navber-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li>Home</li>
-                  <li>About</li>
-                  <li>Help</li>
-                  <li>All Fruits</li>
-              </div>
-              <div class="navbar-center hidden  lg:flex">
-                <ul class="menu menu-horizontal px-1 gap-5 text-white">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Help</li>
-                    <li>All Fruits</li>
-                </ul>
-              </div>
+      <nav class="mx-5 rounded-full  md:mx-10 lg:mx-56 mt-5 lg:bg-rose-500">
+        <div class="navbar justify-around ">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  ">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Shop</li>
+                <li>All Fruits</li>
+              </ul>
             </div>
-            <div>
-              <img src="images/logo.png" alt="">
-              <h3 class="font-bold text-4xl text-white">Fruit Burst</h3>
-            </div>
-            <div class="navber-end lg: ">
-              <div class="form-control">
-                <div class="input-group ">
-                  <input type="text" placeholder="Search…" class="input input-bordered" />
-                  <button class="btn btn-square placeholder- ">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 rounded-s-full" fill="none"viewBox="0 0 24 24 " stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                  </button>
-                </div>
-              </div>
-              
-              
-                
-              
+            <div class="navbar-start hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 gap-5 pl-5 font-medium text-lg text-white">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Shop</li>
+                <li>All Fruits</li>
+              </ul>
             </div>
           </div>
+          <div class="">
+            <img src="images/logo.png" alt="">
+            <h3 class="font-extrabold lg:text-white normal-case text-4xl">All Fruits</h3>
+          </div>
+          <div class="navbar-end h-12 w-96 py-10 hidden lg:flex">
+            <input class="h-14 w-96 rounded-full pl-6 text-lg" type="text" placeholder="search">
+            <a>
+              <img class="w-6 h-6 relative right-10" src="icon/search.png" alt="">
+            </a>
+          </div>
+        </div>
       </nav>
         <section class=" lg:px-56 static">
           <div class="carousel w-full mt-12 mb-36 relative">
@@ -180,7 +176,7 @@
       <section class="lg:px-56">
         <div class="flex flex-col items-center lg:flex-row  justify-between">
           <div>
-            <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+            <h3 class="text-5xl font-extrabold text-center lg:text-right">Deal of the day</h3>
             <p class="text-base discription-color font-medium mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
@@ -513,7 +509,7 @@
           <h3 class="font-extrabold text-5xl mb-5">Why Choose Us</h3>
           <p class="text-base font-medium mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-       <div class="grid grid-cols-3 mb-36">
+       <div class="flex order-2 lg:flex mb-36">
 
           <div class="">
             <div>
@@ -546,7 +542,7 @@
           </div>
 
           <div>
-              <img src="images/whychoose1.png" alt="">
+              <img class="" src="images/whychoose1.png" alt="">
           </div>
 
           <div class="text-right">
